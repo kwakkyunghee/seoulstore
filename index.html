@@ -38,7 +38,7 @@
 
                         <!-- 입장하기 -->
                         <div class="entrance">
-                            <button type="submit" class="btn btn-primary"><b>입장하기</b></button>
+                            <button type="submit" class="btn btn-primary"><a id="enter" href="./signup.php"><b >입장하기</b></a></button>
                             <!-- login.php -->
                         </div>
 
@@ -53,18 +53,18 @@
                         <!-- 카테고리 -->
                         <ul class="n">
                         
-                            <li style="list-style:none;"><a href="#"><b>홈</b></a></li>
+                            <li style="list-style:none;"><a id="n_a" href="#"><b>홈</b></a></li>
                             <li style="list-style:none;"><a id="rank" href="#"><b>랭킹</b></a></li>
                             <li style="list-style:none;"><a id="sale" href="#"><b>초저가</b></a></li>
                             <li style="list-style:none;"><a id="ba" href="#"><b>바캉스</b></a></li>
-                            <li style="list-style:none;"><a href="#"><b>카테고리</b></a></li>
-                            <li style="list-style:none;"><a href="#"><b>서울그램</b></a></li>
-                            <li style="list-style:none;"><a href="#"><b>Brand</b></a></li>
-                            <li style="list-style:none;"><a href="#"><b>브랜드소식</b></a></li>
-                            <li style="list-style:none;"><a href="#"><b>신상</b></a></li>
-                            <li style="list-style:none;"><a href="#"><b>할인</b></a></li>
-                            <li style="list-style:none;"><a href="#"><b>기획전</b></a></li>
-                            <li style="list-style:none;"><a href="#"><b>스타일</b></a></li>
+                            <li style="list-style:none;"><a id="n_a" href="#"><b>카테고리</b></a></li>
+                            <li style="list-style:none;"><a id="n_a" href="#"><b>서울그램</b></a></li>
+                            <li style="list-style:none;"><a id="n_a" href="#"><b>Brand</b></a></li>
+                            <li style="list-style:none;"><a id="n_a" href="#"><b>브랜드소식</b></a></li>
+                            <li style="list-style:none;"><a id="n_a" href="#"><b>신상</b></a></li>
+                            <li style="list-style:none;"><a id="n_a" href="#"><b>할인</b></a></li>
+                            <li style="list-style:none;"><a id="n_a" href="#"><b>기획전</b></a></li>
+                            <li style="list-style:none;"><a id="n_a" href="#"><b>스타일</b></a></li>
 
                         </ul>
 
@@ -72,7 +72,7 @@
 
                         <!-- 실시간 인기 검색어 -->
                         <div class="popular_search">
-                            실시간 인기 검색어  <b>7위</b> 반팔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▾6  
+                            실시간 인기 검색어  <b>7위</b> 반팔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▾6  
                         </div>
 
 
@@ -92,12 +92,8 @@
                         <div class="ca_c">
                             <input type='button' value='버튼' id='btn1' style="display: none;"/>
                       
-                        </div>
-                      
-                        
-                        
-                        
                     </div>
+    </form>
                 </header>
             </div>
         </div>  
@@ -221,16 +217,17 @@
                 <button type="button" id="va_"><b>전체보기</b></button>
                 
             </div>
+            <!-- 상품랭킹 상품 이미지 -->
             <div class="viewall_arrow"><img src="./seoulstore_images/viewarrow.png" width="15px" height="12px"></div>
 
             <div class="p_ranking1">
-                <button id="p_ranking_btn"><a href="rank1.html"><img id="p_ranking_img" src="./seoulstore_images/rank1.jpg "></a></button>
-                <button id="p_ranking_btn"><a href=""><img id="p_ranking_img" src="./seoulstore_images/rank2.jpg"></a></button>
+                <button id="p_ranking_btn"><a href="./rank1.html"><img id="p_ranking_img" src="./seoulstore_images/rank1.jpg "></a></button>
+                <button id="p_ranking_btn"><a href="#"><img id="p_ranking_img" src="./seoulstore_images/rank2.jpg"></a></button>
                 
             </div>
             <div class="p_ranking2">
-                <button id="p_ranking_btn"><a href=""><img id="p_ranking_img" src="./seoulstore_images/rank3.jpg"></a></button>
-                <button id="p_ranking_btn"><a href=""><img id="p_ranking_img" src="./seoulstore_images/rank4.jpg" ></a></button>
+                <button id="p_ranking_btn"><a href="#"><img id="p_ranking_img" src="./seoulstore_images/rank3.jpg"></a></button>
+                <button id="p_ranking_btn"><a href="#"><img id="p_ranking_img" src="./seoulstore_images/rank4.jpg" ></a></button>
             </div>
 
             <div class="commodity1">
@@ -330,6 +327,6 @@
             <div class="foot6"><img src="seoulstore_images/fim.png" width="250px" height="120px"></div>
 
         </div>       
-    </form>
+    
 </body>
 </html>
